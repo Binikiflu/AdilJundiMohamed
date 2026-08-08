@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850">
+  <defs>
+    <linearGradient id="churchWood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a180b"/>
+      <stop offset="100%" stop-color="#0f0702"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="850" rx="14" fill="url(#churchWood)"/>
+  <rect x="25" y="25" width="1150" height="800" fill="#fffdfa" stroke="#d97706" stroke-width="4"/>
+  <rect x="40" y="40" width="1120" height="770" fill="none" stroke="#78350f" stroke-width="1.5"/>
+
+  <!-- Cross Header Icon -->
+  <g transform="translate(600, 95)">
+    <path d="M -10,-35 L 10,-35 L 10,-10 L 35,-10 L 35,10 L 10,10 L 10,35 L -10,35 L -10,10 L -35,10 L -35,-10 L -10,-10 Z" fill="#b45309" stroke="#78350f" stroke-width="2"/>
+  </g>
+
+  <text x="600" y="165" text-anchor="middle" font-family="'Georgia', serif" font-size="22" font-weight="bold" fill="#78350f">
+    የሐረር መካነ ሥላሴ ካቴድራል እና የሸንኮር ደብረ ገሊላ መ/መ/ቅ/ዮሐንስ ገዳም
+  </text>
+  <text x="600" y="215" text-anchor="middle" font-family="'Georgia', serif" font-size="38" font-weight="bold" fill="#0f172a">
+    የምስጋና የምስክር ወረቀት
+  </text>
+
+  <line x1="200" y1="240" x2="1000" y2="240" stroke="#d97706" stroke-width="2"/>
+
+  <text x="600" y="295" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#475569">
+    ለ አቶ / Mr.: <tspan font-weight="bold" font-size="34" fill="#0f172a">መሀመድ ሳላ / Mohamed Salah</tspan>
+  </text>
+
+  <foreignObject x="140" y="345" width="920" height="240">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; font-size: 16px; color: #1e293b; text-align: center; line-height: 1.8;">
+      በሐረር መካነ ሥላሴ ካቴድራል እና በሸንኮር ደብረ ገሊላ መጥምቀ መለኮት ቅዱስ ዮሐንስ ገዳም የካቴድራሉንና የገዳሙን ቅፅር ግቢ ግንባታ፣ የታሪካዊ ቅርሶች ጥበቃና የህዝብ አገልግሎት ሥራዎችን በማስፋፋት ላደረጉት ከፍተኛ የገንዘብና የቁሳቁስ ድጋፍ ገዳሙ ይህንን የምስጋናና የእውቅና የምስክር ወረቀት በደስታ አበርክቷል።
+    </div>
+  </foreignObject>
+
+  <!-- Signatures & Monastic Stamp Seal -->
+  <g transform="translate(300, 660)">
+    <path d="M -60,20 Q 0,-20 60,15" fill="none" stroke="#0f172a" stroke-width="3"/>
+    <line x1="-100" y1="35" x2="100" y2="35" stroke="#64748b" stroke-width="1.5"/>
+    <text x="0" y="58" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">መልአከ ገነት ጥበቡ መላኩ</text>
+    <text x="0" y="76" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#64748b">የካቴድራሉና የገዳሙ አስተዳዳሪ</text>
+  </g>
+
+  <g transform="translate(850, 650)">
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#991b1b" stroke-width="3"/>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#991b1b" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="bold" fill="#991b1b">HARAR TRINITY CATHEDRAL</text>
+    <text x="0" y="6" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="bold" fill="#991b1b">&amp; MONASTIC COUNCIL</text>
+    <text x="0" y="20" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#991b1b">2013 ዓ.ም / 2021</text>
+  </g>
+</svg>

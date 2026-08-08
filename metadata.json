@@ -1,0 +1,6 @@
+{
+  "name": "Adil Jundi Import Export Ltd.",
+  "description": "Official corporate B2B portal, product catalog, tender verification, and RFQ system for Adil Jundi Import Export Ltd. in Addis Ababa, Ethiopia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

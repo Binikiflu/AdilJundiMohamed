@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#020617" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <g filter="url(#shadow)" transform="translate(100, 100)">
+    <!-- Heavy Wheels -->
+    <circle cx="180" cy="330" r="65" fill="#0f172a" stroke="#334155" stroke-width="8"/>
+    <circle cx="180" cy="330" r="35" fill="#94a3b8"/>
+    <circle cx="480" cy="330" r="65" fill="#0f172a" stroke="#334155" stroke-width="8"/>
+    <circle cx="480" cy="330" r="35" fill="#94a3b8"/>
+    <!-- Orange Body -->
+    <path d="M 80 300 Q 80 180 200 180 L 340 180 L 380 100 L 520 100 L 540 300 Z" fill="#ea580c" stroke="#c2410c" stroke-width="4"/>
+    <!-- Operator Cabin Cage -->
+    <rect x="360" y="110" width="140" height="150" fill="none" stroke="#1e293b" stroke-width="8"/>
+    <!-- Front Lifting Mast & Forks -->
+    <rect x="560" y="80" width="20" height="300" fill="#334155"/>
+    <rect x="580" y="80" width="20" height="300" fill="#334155"/>
+    <path d="M 560 320 L 700 320 L 700 335 L 560 335 Z" fill="#0f172a"/>
+  </g>
+</svg>

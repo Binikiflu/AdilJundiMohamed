@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850">
+  <defs>
+    <linearGradient id="woodBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eeeeee"/>
+      <stop offset="50%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b8860b"/>
+      <stop offset="50%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect x="0" y="0" width="1200" height="850" fill="url(#woodBorder)"/>
+  <rect x="25" y="25" width="1150" height="800" fill="#ffffff" stroke="#b8860b" stroke-width="6"/>
+  <rect x="45" y="45" width="1110" height="760" fill="none" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Corner Flourishes -->
+  <g fill="#b8860b">
+    <path d="M 50,50 L 100,50 L 100,60 L 60,60 L 60,100 L 50,100 Z"/>
+    <path d="M 1150,50 L 1100,50 L 1100,60 L 1140,60 L 1140,100 L 1150,100 Z"/>
+    <path d="M 50,800 L 100,800 L 100,790 L 60,790 L 60,750 L 50,750 Z"/>
+    <path d="M 1150,800 L 1100,800 L 1100,790 L 1140,790 L 1140,750 L 1150,750 Z"/>
+  </g>
+
+  <!-- Oromia Revenue Authority Logo Header -->
+  <g transform="translate(550, 70)">
+    <circle cx="50" cy="40" r="38" fill="#15803d"/>
+    <path d="M 30,55 L 50,20 L 70,55 Z" fill="#ffd700"/>
+    <circle cx="50" cy="40" r="14" fill="#ffffff"/>
+  </g>
+
+  <text x="600" y="175" text-anchor="middle" font-family="'Georgia', serif" font-size="26" font-weight="bold" fill="#15803d">
+    Abbaa Taayitaa Galiwwan Oromiyaatti / በኦሮሚያ ገቢዎች ባለሥልጣን
+  </text>
+  <text x="600" y="205" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#4b5563">
+    OROMIA REVENUE AUTHORITY - TOP TAXPAYER AWARD
+  </text>
+
+  <!-- Gold Seal Emblem -->
+  <g transform="translate(600, 260)">
+    <circle cx="0" cy="0" r="42" fill="url(#goldGradient)" stroke="#854d0e" stroke-width="2"/>
+    <circle cx="0" cy="0" r="34" fill="#ffffff" stroke="#b8860b" stroke-width="1.5"/>
+    <text x="0" y="-6" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="extrabold" fill="#854d0e">SADARKAA WARQEE</text>
+    <text x="0" y="12" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="extrabold" fill="#854d0e">የወርቅ ደረጃ</text>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="340" text-anchor="middle" font-family="'Georgia', serif" font-size="34" font-weight="bold" fill="#111827">
+    Waraqaa Ragaa / የምስክር ወረቀት
+  </text>
+
+  <text x="600" y="380" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#374151">
+    Aka/Aad: <tspan font-weight="bold" font-size="28" fill="#1e3a8a">Mohaammad Saalaa / ለአቶ ሞሐመድ ሳላ</tspan>
+  </text>
+
+  <!-- Description Text -->
+  <foreignObject x="140" y="420" width="920" height="180">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; font-size: 16px; color: #1f2937; text-align: center; line-height: 1.8;">
+      Preezidaantii BMN Oromiyaa Maskaaram Dabbabaa fi Shimallis Abdisaatiin kan mallatteeffame: Akka Godina Harargee Bahaatti taaksii fi gibira bara 2012 bajataatti sirnaan ክፍያ በመፈፀም ለሀገርና ክልል እድገት ላበረከቱት ላቅ ያለ አስተዋፅኦ የተሰጠ የወርቅ ደረጃ የምስክር ወረቀት።
+    </div>
+  </foreignObject>
+
+  <!-- Signatures -->
+  <g transform="translate(220, 640)">
+    <path d="M 20,30 C 50,0 80,60 120,20 S 180,40 200,25" fill="none" stroke="#111827" stroke-width="2.5"/>
+    <line x1="10" y1="55" x2="230" y2="55" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="120" y="78" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#111827">Maskaram Dabbabaa</text>
+    <text x="120" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4b5563">Daarektara Abbaa Taayitaa</text>
+  </g>
+
+  <!-- Official Oromia Stamp -->
+  <g transform="translate(600, 680)">
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#15803d" stroke-width="3" stroke-dasharray="5,2"/>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#15803d" stroke-width="1.5"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="bold" fill="#15803d">ABBAA TAAYITAA GALIWWAN</text>
+    <text x="0" y="6" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="bold" fill="#15803d">በኦሮሚያ ገቢዎች ባለሥልጣን</text>
+    <text x="0" y="20" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="bold" fill="#15803d">2012 E.C.</text>
+  </g>
+
+  <g transform="translate(820, 640)">
+    <path d="M 20,25 C 60,60 100,0 140,35 S 180,10 200,30" fill="none" stroke="#111827" stroke-width="2.5"/>
+    <line x1="10" y1="55" x2="230" y2="55" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="120" y="78" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#111827">Shimallis Abdisaa</text>
+    <text x="120" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4b5563">Pirezidaantii BMN Oromiyaa</text>
+  </g>
+</svg>

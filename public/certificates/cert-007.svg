@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850">
+  <defs>
+    <linearGradient id="cbeFrame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a2e18"/>
+      <stop offset="100%" stop-color="#1c0e06"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="850" rx="16" fill="url(#cbeFrame)"/>
+  <rect x="25" y="25" width="1150" height="800" rx="8" fill="#fdfcf7" stroke="#b45309" stroke-width="4"/>
+  <rect x="40" y="40" width="1120" height="770" fill="none" stroke="#78350f" stroke-width="2"/>
+
+  <!-- CBE Logo Header -->
+  <g transform="translate(600, 100)">
+    <path d="M -25,-25 C 10,-25 35,-5 35,20 C 35,45 5,60 -20,50 C -40,40 -45,10 -25,-10 C -10,-25 15,-15 15,10 C 15,25 -5,30 -15,20" fill="none" stroke="#9a3412" stroke-width="7"/>
+    <circle cx="-15" cy="18" r="7" fill="#d97706"/>
+  </g>
+
+  <text x="600" y="195" text-anchor="middle" font-family="'Times New Roman', serif" font-size="34" font-weight="bold" fill="#0f172a">
+    Commercial Bank of Ethiopia
+  </text>
+
+  <text x="600" y="255" text-anchor="middle" font-family="'Georgia', serif" font-size="44" font-weight="bold" font-style="italic" fill="#78350f">
+    Certificate of Recognition
+  </text>
+
+  <line x1="200" y1="285" x2="1000" y2="285" stroke="#d97706" stroke-width="1.5"/>
+
+  <text x="600" y="340" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#475569">
+    Commercial Bank of Ethiopia awarded this Certificate of Recognition to
+  </text>
+
+  <text x="600" y="405" text-anchor="middle" font-family="'Georgia', serif" font-size="40" font-weight="bold" fill="#0f172a" letter-spacing="2">
+    MOHAMMED SALAH ALI
+  </text>
+  <line x1="320" y1="420" x2="880" y2="420" stroke="#0f172a" stroke-width="2"/>
+
+  <foreignObject x="150" y="460" width="900" height="160">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Georgia', serif; font-size: 20px; color: #1e293b; text-align: center; line-height: 1.8;">
+      For the Dedication and Excellence of Competence to be Preferred as Business Customer of the Bank.
+      <br/>
+      <span style="font-size: 18px; color: #475569; font-style: italic;">
+        Commercial Bank of Ethiopia wishes you much success in all your future endeavors.
+      </span>
+    </div>
+  </foreignObject>
+
+  <!-- Date & President Signature -->
+  <g transform="translate(600, 670)">
+    <text x="0" y="-30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#334155">Feb. 01, 2014</text>
+
+    <!-- Bekalu Zeleke Signature -->
+    <path d="M -100,-10 C -40,-40 20,10 80,-20 T 120,-5" fill="none" stroke="#0f172a" stroke-width="3"/>
+    <line x1="-140" y1="0" x2="140" y2="0" stroke="#475569" stroke-width="1.5"/>
+
+    <text x="0" y="25" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#0f172a">Bekalu Zeleke</text>
+    <text x="0" y="45" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#78350f">President</text>
+  </g>
+</svg>

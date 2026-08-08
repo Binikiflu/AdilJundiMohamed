@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850">
+  <defs>
+    <linearGradient id="mahoganyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b130e"/>
+      <stop offset="50%" stop-color="#1c0705"/>
+      <stop offset="100%" stop-color="#0a0201"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="850" fill="url(#mahoganyGrad)"/>
+  <rect x="25" y="25" width="1150" height="800" fill="#fffdfa" stroke="#d97706" stroke-width="5"/>
+  <rect x="40" y="40" width="1120" height="770" fill="none" stroke="#991b1b" stroke-width="1.5"/>
+
+  <!-- Top Left Seal - Harari Health Bureau -->
+  <g transform="translate(120, 80)">
+    <circle cx="45" cy="45" r="40" fill="#0284c7"/>
+    <circle cx="45" cy="45" r="32" fill="#ffffff"/>
+    <path d="M 30,55 Q 45,20 60,55 Z" fill="#0284c7"/>
+    <circle cx="45" cy="35" r="8" fill="#f59e0b"/>
+  </g>
+
+  <!-- Top Right Emblem - Ministry of Health Ethiopia -->
+  <g transform="translate(990, 80)">
+    <circle cx="45" cy="45" r="40" fill="#1e3a8a"/>
+    <circle cx="45" cy="45" r="32" fill="#ffffff"/>
+    <path d="M 35,45 L 55,45 M 45,35 L 45,55" stroke="#dc2626" stroke-width="8"/>
+  </g>
+
+  <!-- Central Title Text -->
+  <text x="600" y="120" text-anchor="middle" font-family="'Georgia', serif" font-size="28" font-weight="bold" fill="#991b1b">
+    የእውቅና ምስክር ወረቀት
+  </text>
+  <text x="600" y="150" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">
+    የሐረሪ ሕዝብ ክልላዊ መንግሥት ጤና ጥበቃ ቢሮ
+  </text>
+  <text x="600" y="175" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0284c7">
+    HARARI REGIONAL STATE HEALTH BUREAU &amp; MINISTRY OF HEALTH ETHIOPIA
+  </text>
+
+  <line x1="250" y1="200" x2="950" y2="200" stroke="#d97706" stroke-width="2"/>
+
+  <!-- Recipient -->
+  <text x="600" y="260" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#475569">
+    የተሰጠው ለ:
+  </text>
+  <text x="600" y="310" text-anchor="middle" font-family="'Georgia', serif" font-size="38" font-weight="bold" fill="#0f172a">
+    አቶ መሐመድ ሳላህ / Mr. Mohamed Salah
+  </text>
+
+  <!-- Content -->
+  <foreignObject x="140" y="350" width="920" height="220">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; font-size: 17px; color: #1e293b; text-align: center; line-height: 1.8;">
+      በሐረሪ ክልል ከሐምሌ 2012 ዓ.ም ጀምሮ የኮቪድ-19 ወረርሽኝን ለመከላከል፣ ለመቆጣጠርና የቅድመ ዝግጅት ምላሽ ለመስጠት በነበረው ሂደት ውስጥ በግል አወንታዊ አስተዋጽኦ በማድረግ፣ በገንዘብና በቁሳቁስ እንዲሁም በቴክኒክ ድጋፍ ላበረከቱት ከፍተኛ አስተዋጽኦ የሐረሪ ክልል ጤና ጥበቃ ቢሮ ይህንን የእውቅናና የምስክር ወረቀት አበርክቷል።
+    </div>
+  </foreignObject>
+
+  <!-- Signatures & Official Stamp -->
+  <g transform="translate(250, 660)">
+    <path d="M 0,20 Q 50,-10 100,30 T 180,10" fill="none" stroke="#0f172a" stroke-width="3"/>
+    <line x1="-20" y1="45" x2="220" y2="45" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="100" y="68" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">አቶ ኢብራሂም ኢብራቲ</text>
+    <text x="100" y="88" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#64748b">የሐረሪ ክልል ጤና ጥበቃ ቢሮ ኃላፊ</text>
+  </g>
+
+  <g transform="translate(600, 680)">
+    <circle cx="0" cy="0" r="46" fill="none" stroke="#1e3a8a" stroke-width="3"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#1e3a8a" stroke-width="1.5" stroke-dasharray="5,2"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="bold" fill="#1e3a8a">HARARI REGIONAL STATE</text>
+    <text x="0" y="6" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="bold" fill="#1e3a8a">HEALTH BUREAU</text>
+    <text x="0" y="20" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#1e3a8a">ሐምሌ 2013 ዓ.ም</text>
+  </g>
+
+  <g transform="translate(950, 660)">
+    <path d="M -80,25 Q 0,-15 80,20" fill="none" stroke="#0f172a" stroke-width="3"/>
+    <line x1="-100" y1="45" x2="100" y2="45" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="0" y="68" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">FDRE Ministry of Health</text>
+    <text x="0" y="88" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#64748b">Health Emergency Directorate</text>
+  </g>
+</svg>

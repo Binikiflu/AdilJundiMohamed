@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#020617" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <g filter="url(#shadow)" transform="translate(60, 60)">
+    <!-- Display Screen -->
+    <rect x="0" y="0" width="560" height="380" rx="8" fill="#020617" stroke="#1e293b" stroke-width="8"/>
+    <!-- UI Screen Background -->
+    <rect x="15" y="15" width="530" height="350" fill="#1e1b4b"/>
+    <text x="230" y="160" font-family="sans-serif" font-size="42" font-weight="900" fill="#ffffff">14:30</text>
+    <rect x="40" y="50" width="120" height="280" rx="8" fill="#0f172a" opacity="0.8"/>
+    <!-- Presenter Silhouette on Right -->
+    <g transform="translate(560, 100)">
+      <circle cx="80" cy="40" r="25" fill="#cbd5e1"/>
+      <path d="M 40 160 L 60 80 L 120 80 L 140 160 Z" fill="#475569"/>
+      <!-- Arm Touching Screen -->
+      <path d="M 60 90 L -30 140" stroke="#cbd5e1" stroke-width="14" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

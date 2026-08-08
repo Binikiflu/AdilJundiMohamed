@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850">
+  <defs>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a2e18"/>
+      <stop offset="50%" stop-color="#2a180b"/>
+      <stop offset="100%" stop-color="#140b04"/>
+    </linearGradient>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="50%" stop-color="#fff2a8"/>
+      <stop offset="100%" stop-color="#aa7c11"/>
+    </linearGradient>
+    <radialGradient id="paperGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8f4eb"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Wooden Frame -->
+  <rect x="0" y="0" width="1200" height="850" rx="16" fill="url(#frameGrad)"/>
+  <rect x="20" y="20" width="1160" height="810" rx="8" fill="none" stroke="url(#goldBorder)" stroke-width="8"/>
+  <rect x="36" y="36" width="1128" height="778" fill="url(#paperGrad)" stroke="#8b5a2b" stroke-width="2"/>
+
+  <!-- Certificate Corner Ornaments -->
+  <g stroke="#aa7c11" stroke-width="2" fill="none">
+    <path d="M 60,110 L 60,60 L 110,60 M 60,80 L 80,60" />
+    <path d="M 1140,110 L 1140,60 L 1090,60 M 1140,80 L 1120,60" />
+    <path d="M 60,740 L 60,790 L 110,790 M 60,770 L 80,790" />
+    <path d="M 1140,740 L 1140,790 L 1090,790 M 1140,770 L 1120,790" />
+  </g>
+
+  <!-- Ethiopian Flag (Top Left) -->
+  <g transform="translate(100, 80)">
+    <rect x="0" y="0" width="120" height="25" fill="#009a44"/>
+    <rect x="0" y="25" width="120" height="25" fill="#fed100"/>
+    <rect x="0" y="50" width="120" height="25" fill="#ef2b2d"/>
+    <circle cx="60" cy="37.5" r="18" fill="#0055a5"/>
+    <polygon points="60,23 64,32 74,32 66,38 69,48 60,42 51,48 54,38 46,32 56,32" fill="#fed100"/>
+  </g>
+
+  <!-- Prosperity / Oromia Flag (Top Right) -->
+  <g transform="translate(980, 80)">
+    <rect x="0" y="0" width="120" height="37.5" fill="#ef2b2d"/>
+    <rect x="0" y="37.5" width="120" height="37.5" fill="#000000"/>
+    <circle cx="60" cy="37.5" r="18" fill="#ffffff" stroke="#ef2b2d" stroke-width="2"/>
+    <path d="M 50,42 Q 60,25 70,42 Z" fill="#009a44"/>
+  </g>
+
+  <!-- Central Government Emblem -->
+  <g transform="translate(550, 75)">
+    <circle cx="50" cy="40" r="38" fill="#0055a5" stroke="#d4af37" stroke-width="3"/>
+    <circle cx="50" cy="40" r="32" fill="#ffffff"/>
+    <path d="M 35,55 Q 50,20 65,55 Z" fill="#009a44"/>
+    <circle cx="50" cy="32" r="8" fill="#fed100"/>
+  </g>
+
+  <!-- Title Text -->
+  <text x="600" y="210" text-anchor="middle" font-family="'Georgia', serif" font-size="42" font-weight="bold" fill="#1a202c">
+    WARAQAA RAGAA / የምስክር ወረቀት
+  </text>
+  <text x="600" y="245" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="bold" fill="#718096" letter-spacing="4">
+    EAST HARARGHE ZONE ADMINISTRATION &amp; ELECTION COMMITTEE
+  </text>
+
+  <!-- Divider Line -->
+  <line x1="200" y1="265" x2="1000" y2="265" stroke="#d4af37" stroke-width="3"/>
+
+  <!-- Recipient Section -->
+  <text x="600" y="315" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="600" fill="#4a5568">
+    Obboo / Addee:
+  </text>
+  <text x="600" y="360" text-anchor="middle" font-family="'Georgia', serif" font-size="36" font-weight="bold" fill="#1a365d" text-decoration="underline">
+    MAHAMMAD SAALAA / አቶ መሀመድ ሳላ
+  </text>
+
+  <!-- Body Description -->
+  <foreignObject x="150" y="395" width="900" height="200">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; font-size: 16px; color: #2d3748; text-align: center; line-height: 1.7;">
+      Hojii Filannoo Biyyooleessaa fi Naannoo Marsaa 6<sup>ffaa</sup> bara 2013 gaggeeffame keessatti, hojii nageenyaa, misoomaa fi Dimookraasii akkasumaas jijjiirama Go/Har/Bahaa keessatti qabsoodhaan dhufeef gahee keessan sadarkaa ol’aanaatti waan baataniif Waraqaan Ragaa kun kabajaa fi ulfina guddaa waliin isiniif kennameera.
+      <br/>
+      <span style="font-size: 15px; color: #4a5568; font-weight: 500;">
+        በምስራቅ ሐረርጌ ዞን የ2013 ዓ.ም 6ኛው ሀገራዊና ክልላዊ ምርጫ በሰላምና በዴሞክራሲ እንዲጠናቀቅ ላበረከቱት ከፍተኛ አስተዋጽኦ የተሰጠ የምስክር ወረቀት።
+      </span>
+    </div>
+  </foreignObject>
+
+  <!-- Stamps & Signatures Section -->
+  <g transform="translate(200, 640)">
+    <!-- Stamp Seal -->
+    <circle cx="80" cy="50" r="50" fill="none" stroke="#1d4ed8" stroke-width="4" stroke-dasharray="6,2"/>
+    <circle cx="80" cy="50" r="42" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="80" y="45" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#1d4ed8">BULCHIINSA GO/HAR/BAHAA</text>
+    <text x="80" y="60" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#1d4ed8">የምስራቅ ሐረርጌ ዞን አስተዳደር</text>
+    <path d="M 60,30 Q 80,70 100,30" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+
+    <!-- Left Signature -->
+    <path d="M 280,40 Q 320,10 360,45 T 420,30" fill="none" stroke="#1e293b" stroke-width="3"/>
+    <line x1="250" y1="65" x2="450" y2="65" stroke="#475569" stroke-width="1.5"/>
+    <text x="350" y="85" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Hüseen Fayyisaa</text>
+    <text x="350" y="105" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#64748b">Bulchiinsa Go/Ha/Bahaa / ዞን አስተዳዳሪ</text>
+  </g>
+
+  <g transform="translate(750, 640)">
+    <!-- Right Signature -->
+    <path d="M 50,35 Q 90,5 130,40 T 180,25" fill="none" stroke="#1e293b" stroke-width="3"/>
+    <line x1="20" y1="65" x2="220" y2="65" stroke="#475569" stroke-width="1.5"/>
+    <text x="120" y="85" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Prosperity Party Committee</text>
+    <text x="120" y="105" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#64748b">Date: 2013 E.C. / 2021 G.C.</text>
+  </g>
+</svg>

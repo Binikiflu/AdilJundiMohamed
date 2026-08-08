@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#020617" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <g filter="url(#shadow)" transform="translate(180, 50)">
+    <!-- 3 Cylindrical Submersible Pumps standing -->
+    <!-- Pump 1 (Left 2") -->
+    <g transform="translate(0, 100)">
+      <rect x="20" y="0" width="50" height="380" rx="25" fill="#e2e8f0" stroke="#94a3b8" stroke-width="3"/>
+      <rect x="30" y="-20" width="30" height="20" fill="#eab308" rx="4"/>
+      <line x1="20" y1="100" x2="70" y2="100" stroke="#64748b" stroke-width="2"/>
+      <line x1="20" y1="200" x2="70" y2="200" stroke="#64748b" stroke-width="2"/>
+      <text x="-250" y="48" font-family="monospace" font-size="11" font-weight="900" fill="#0f172a" transform="rotate(-90)">STAINLESS STEEL 2"</text>
+    </g>
+
+    <!-- Pump 2 (Center 3.5") -->
+    <g transform="translate(140, 50)">
+      <rect x="20" y="0" width="70" height="430" rx="35" fill="#f1f5f9" stroke="#94a3b8" stroke-width="4"/>
+      <rect x="35" y="-25" width="40" height="25" fill="#eab308" rx="4"/>
+      <line x1="20" y1="120" x2="90" y2="120" stroke="#64748b" stroke-width="3"/>
+      <line x1="20" y1="240" x2="90" y2="240" stroke="#64748b" stroke-width="3"/>
+      <text x="-300" y="60" font-family="monospace" font-size="13" font-weight="900" fill="#0f172a" transform="rotate(-90)">DEEP WELL TURBINE 3.5"</text>
+    </g>
+
+    <!-- Pump 3 (Right 4") -->
+    <g transform="translate(290, 0)">
+      <rect x="20" y="0" width="90" height="480" rx="45" fill="#e2e8f0" stroke="#64748b" stroke-width="4"/>
+      <rect x="40" y="-30" width="50" height="30" fill="#eab308" rx="6"/>
+      <line x1="20" y1="150" x2="110" y2="150" stroke="#475569" stroke-width="3"/>
+      <line x1="20" y1="300" x2="110" y2="300" stroke="#475569" stroke-width="3"/>
+      <text x="-340" y="72" font-family="monospace" font-size="15" font-weight="900" fill="#0f172a" transform="rotate(-90)">HEAVY PUMP 4"</text>
+    </g>
+  </g>
+</svg>

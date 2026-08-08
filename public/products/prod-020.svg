@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#020617" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <g filter="url(#shadow)" transform="translate(180, 40)">
+    <!-- Vertical Yellow Lattice Mast -->
+    <rect x="80" y="20" width="40" height="420" fill="#eab308" stroke="#ca8a04" stroke-width="4"/>
+    <path d="M 80 20 L 120 60 M 80 60 L 120 100 M 80 100 L 120 140 M 80 140 L 120 180 M 80 180 L 120 220 M 80 220 L 120 260 M 80 260 L 120 300" stroke="#ca8a04" stroke-width="3"/>
+    <!-- Top Rotary Drilling Motor -->
+    <rect x="60" y="120" width="80" height="60" fill="#1e293b" rx="6"/>
+    <!-- Base Trailer Chassis & Outriggers -->
+    <rect x="40" y="400" width="340" height="60" fill="#eab308" stroke="#ca8a04" stroke-width="4"/>
+    <circle cx="280" cy="470" r="35" fill="#0f172a" stroke="#334155" stroke-width="6"/>
+    <circle cx="360" cy="470" r="35" fill="#0f172a" stroke="#334155" stroke-width="6"/>
+    <!-- Side Hydraulic Diesel Unit -->
+    <rect x="220" y="320" width="140" height="80" fill="#0f172a" rx="6"/>
+  </g>
+</svg>

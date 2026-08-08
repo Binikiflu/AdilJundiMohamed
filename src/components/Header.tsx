@@ -60,30 +60,41 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-xs">
       {/* Top Utility Bar */}
       <div className="bg-slate-900 text-slate-300 py-2 px-4 sm:px-8 text-[11px] font-medium border-b border-slate-800">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2.5">
-          {/* Phone + Location + Email + Import Status in one line */}
-          <div className="flex flex-wrap items-center gap-2.5 sm:gap-3 text-slate-300">
-            <a 
-              href={`tel:${COMPANY_DETAILS.contact.phone}`} 
-              className="flex items-center gap-1.5 hover:text-white transition-colors"
-            >
-              <Phone className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-              <span className="font-mono font-semibold">{COMPANY_DETAILS.contact.phone}</span>
-            </a>
-            <span className="text-slate-700">|</span>
-            <div className="flex items-center gap-1.5 text-slate-300">
-              <MapPin className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-              <span>{COMPANY_DETAILS.headquarters.fullAddress}</span>
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          {/* Contact Details & Address Bar */}
+          <div className="flex flex-col sm:flex-row sm:items-center gap-1.5 sm:gap-3 text-slate-300">
+            {/* Address - Positioned First & Prominent on Mobile */}
+            <div className="flex items-center gap-1.5 text-amber-300 sm:text-slate-300 font-semibold sm:font-normal">
+              <MapPin className="w-3.5 h-3.5 text-amber-400 sm:text-slate-400 shrink-0" />
+              <span className="truncate">{COMPANY_DETAILS.headquarters.fullAddress}</span>
             </div>
-            <span className="text-slate-700">|</span>
-            <a 
-              href={`mailto:${COMPANY_DETAILS.contact.email}`} 
-              className="flex items-center gap-1.5 hover:text-white transition-colors"
-            >
-              <Mail className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-              <span>{COMPANY_DETAILS.contact.email}</span>
-            </a>
-            <span className="text-slate-700">|</span>
+
+            <span className="hidden sm:inline text-slate-700">|</span>
+
+            {/* Phone & Email */}
+            <div className="flex flex-wrap items-center gap-2.5 sm:gap-3">
+              <a 
+                href={`tel:${COMPANY_DETAILS.contact.phone}`} 
+                className="flex items-center gap-1.5 hover:text-white transition-colors"
+              >
+                <Phone className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                <span className="font-mono font-semibold text-slate-200">{COMPANY_DETAILS.contact.phone}</span>
+              </a>
+
+              <span className="hidden sm:inline text-slate-700">|</span>
+
+              <a 
+                href={`mailto:${COMPANY_DETAILS.contact.email}`} 
+                className="flex items-center gap-1.5 hover:text-white transition-colors"
+              >
+                <Mail className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                <span>{COMPANY_DETAILS.contact.email}</span>
+              </a>
+            </div>
+
+            <span className="hidden sm:inline text-slate-700">|</span>
+
+            {/* Import Status */}
             <div className="flex items-center gap-1.5 text-[10px]">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
               <span className="font-bold text-white">Import Status:</span>

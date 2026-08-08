@@ -181,7 +181,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["ISO 8528", "CE Mark", "EU Stage IIIA"],
     primaryApplications: ["Regional Hospitals", "Ministry Data Centers", "University Campuses"],
-    imageUrl: "/products/prod-004.svg",
+    imageUrl: "/products/images.jpg",
     inStock: true,
     leadTimeDays: 21
   },
@@ -201,7 +201,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["IEC 60947-6-1", "CE", "ISO 9001"],
     primaryApplications: ["Commercial Banking Headquarters", "Public Hospitals", "Broadcast Stations"],
-    imageUrl: "/products/prod-005.svg",
+    imageUrl: "/products/images (1).jpg",
     inStock: true,
     leadTimeDays: 10
   },
@@ -222,7 +222,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["IEC 60076", "EEU Standard", "ISO 9001"],
     primaryApplications: ["Regional Electric Utilities", "Industrial Parks", "High-Rise Commercial Complexes"],
-    imageUrl: "/products/prod-018.svg",
+    imageUrl: "/products/images (2).jpg",
     inStock: true,
     leadTimeDays: 25
   },
@@ -242,7 +242,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["IEC 60502-1", "BS 5467", "RoHS"],
     primaryApplications: ["Underground Grid Feeders", "University Main Feeders", "Factory Sub-Distributions"],
-    imageUrl: "/products/prod-019.svg",
+    imageUrl: "/products/images (3).jpg",
     inStock: true,
     leadTimeDays: 14
   },
@@ -263,7 +263,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["IEC 61215", "IEC 61730", "TÜV Rheinland"],
     primaryApplications: ["Solar Water Pumping Schemes", "Off-grid Ministry Outposts", "Educational Centers"],
-    imageUrl: "/products/prod-008.svg",
+    imageUrl: "/products/images (4).jpg",
     inStock: true,
     leadTimeDays: 10
   },
@@ -283,7 +283,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["CE", "IEC 62109-1", "EN 61000"],
     primaryApplications: ["Off-Grid Health Clinics", "Remote Bank Branches", "Agricultural Storage Facilities"],
-    imageUrl: "/products/prod-009.svg",
+    imageUrl: "/products/images (5).jpg",
     inStock: true,
     leadTimeDays: 12
   },
@@ -304,7 +304,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["IEC 60034", "IE3 Efficiency Rating"],
     primaryApplications: ["Pumping Stations", "Industrial Processing", "HVAC Blowers"],
-    imageUrl: "/products/prod-016.svg",
+    imageUrl: "/products/images (6).jpg",
     inStock: true,
     leadTimeDays: 12
   },
@@ -327,7 +327,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["ISO 9906", "CE Standard", "MoWE Standard"],
     primaryApplications: ["Irrigation Commissions", "Municipal Water Supply", "Flood Control"],
-    imageUrl: "/products/prod-006.svg",
+    imageUrl: "/products/images (16).jpg",
     inStock: true,
     leadTimeDays: 7
   },
@@ -347,7 +347,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["NEMA Standard", "ISO 9906 Grade 2B", "CE"],
     primaryApplications: ["Community Water Supply Wells", "Agricultural Irrigation", "Industrial Cooling"],
-    imageUrl: "/products/prod-007.svg",
+    imageUrl: "/products/images (7).jpg",
     inStock: true,
     leadTimeDays: 14
   },
@@ -367,7 +367,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["ISO 2531", "EN 545", "AWWA C110"],
     primaryApplications: ["Addis Ababa & Regional Main Lines", "Treatment Plant Pipelines", "Irrigation Canals"],
-    imageUrl: "/products/prod-020.svg",
+    imageUrl: "/products/download (1).jpg",
     inStock: true,
     leadTimeDays: 18
   },
@@ -388,7 +388,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["ISO 22475", "CE Safety Standard"],
     primaryApplications: ["Geological Surveys", "Water Well Construction", "Infrastructure Foundations"],
-    imageUrl: "/products/prod-010.svg",
+    imageUrl: "/products/images (8).jpg",
     inStock: false,
     leadTimeDays: 30
   },
@@ -408,7 +408,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["CE", "ISO 6016", "EU Stage V"],
     primaryApplications: ["Federal Highway Construction", "Airport Runways", "Urban Road Paving"],
-    imageUrl: "/products/prod-011.svg",
+    imageUrl: "/products/images (9).jpg",
     inStock: true,
     leadTimeDays: 25
   },
@@ -428,7 +428,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["ISO 3691-1", "CE Certified", "ANSI/ITSDF"],
     primaryApplications: ["Djibouti Transit & Dry Ports", "Industrial Free Trade Zones", "Warehouse Logistics"],
-    imageUrl: "/products/prod-021.svg",
+    imageUrl: "/products/download (2).jpg",
     inStock: true,
     leadTimeDays: 20
   },
@@ -448,7 +448,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["ISO 1217", "ASME Boiler Code", "CE"],
     primaryApplications: ["Industrial Manufacturing Plants", "Vehicle Workshop Facilities", "Pneumatic Tool Lines"],
-    imageUrl: "/products/prod-022.svg",
+    imageUrl: "/products/download (3).jpg",
     inStock: true,
     leadTimeDays: 10
   },
@@ -471,7 +471,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["IEC 60794", "ITU-T G.652D", "RoHS"],
     primaryApplications: ["National Telecom Expansion", "Ministry Fiber Rings", "University Campus Backbones"],
-    imageUrl: "/products/prod-001.svg",
+    imageUrl: "/products/images (10).jpg",
     inStock: true,
     leadTimeDays: 14
   },
@@ -492,7 +492,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["IEEE 1222", "IEC 60794-4", "ISO 9001"],
     primaryApplications: ["Power Grid Communications", "Inter-City Overhead Links", "Rural Broadband"],
-    imageUrl: "/products/prod-002.svg",
+    imageUrl: "/products/images (11).jpg",
     inStock: true,
     leadTimeDays: 10
   },
@@ -512,7 +512,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["TIA/EIA-568-C.3", "Telcordia GR-449", "CE"],
     primaryApplications: ["Data Centers", "Telecom Central Offices", "Bank Network Hubs"],
-    imageUrl: "/products/prod-003.svg",
+    imageUrl: "/products/images (12).jpg",
     inStock: true,
     leadTimeDays: 7
   },
@@ -532,7 +532,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["Energy Star Server 3.0", "FCC Class A", "CE"],
     primaryApplications: ["Ministry Central Databases", "Regional Revenue Servers", "Bank Transaction Core"],
-    imageUrl: "/products/prod-023.svg",
+    imageUrl: "/products/download (4).jpg",
     inStock: true,
     leadTimeDays: 14
   },
@@ -553,7 +553,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["Energy Star 8.0", "FCC Class B", "CE"],
     primaryApplications: ["University Computer Labs", "Ministry Administration", "Financial Institution Workstations"],
-    imageUrl: "/products/prod-014.svg",
+    imageUrl: "/products/download (5).jpg",
     inStock: true,
     leadTimeDays: 7
   },
@@ -573,7 +573,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["IEEE 802.3at PoE+", "CE", "FCC", "RoHS"],
     primaryApplications: ["Enterprise Office Networks", "Campus IP Surveillance", "Data Center Racks"],
-    imageUrl: "/products/prod-015.svg",
+    imageUrl: "/products/download (6).jpg",
     inStock: true,
     leadTimeDays: 5
   },
@@ -593,7 +593,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["CE", "FCC", "CB", "RoHS"],
     primaryApplications: ["University Lecture Halls", "Ministry Conference Rooms", "Bank Training Centers"],
-    imageUrl: "/products/prod-024.svg",
+    imageUrl: "/products/images (13).jpg",
     inStock: true,
     leadTimeDays: 14
   },
@@ -613,7 +613,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["BIFMA X5.5", "ISO 14001"],
     primaryApplications: ["Ministerial Director Offices", "Bank Executive Suites", "University Deans"],
-    imageUrl: "/products/prod-012.svg",
+    imageUrl: "/products/download (7).jpg",
     inStock: true,
     leadTimeDays: 14
   },
@@ -633,7 +633,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["UL 72", "NT FIRE 017", "ISO 9001"],
     primaryApplications: ["Government Ministry Archives", "Courts & Judicial Chambers", "Bank Records"],
-    imageUrl: "/products/prod-013.svg",
+    imageUrl: "/products/images (14).jpg",
     inStock: true,
     leadTimeDays: 7
   },
@@ -653,7 +653,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["ISO 13485 Medical", "CE 0123", "FDA Cleared"],
     primaryApplications: ["Regional Referral Hospitals", "Maternal Health Clinics", "Field Health Posts"],
-    imageUrl: "/products/prod-025.svg",
+    imageUrl: "/products/download (8).jpg",
     inStock: true,
     leadTimeDays: 14
   },
@@ -673,7 +673,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["USEPA Approved Methods", "ISO 7027", "CE"],
     primaryApplications: ["Public Health Laboratories", "Water Authority Inspection", "Environmental Studies"],
-    imageUrl: "/products/prod-017.svg",
+    imageUrl: "/products/images (15).jpg",
     inStock: true,
     leadTimeDays: 10
   }

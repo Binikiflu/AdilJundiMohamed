@@ -191,7 +191,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 {/* Quick Credentials List */}
                 <div className="p-4 sm:p-5 space-y-2.5 text-xs text-slate-300">
                   <div className="flex justify-between py-1 border-b border-slate-800">
-                    <span className="text-slate-400 font-medium">Owner / General Manager:</span>
+                    <span className="text-slate-400 font-medium">General Manager:</span>
                     <span className="font-bold text-white">{COMPANY_DETAILS.generalManager}</span>
                   </div>
                   <div className="flex justify-between py-1 border-b border-slate-800">
@@ -284,7 +284,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             {/* Corporate Spotlight Content Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               
-              {/* Box 1: Owner / General Manager */}
+              {/* Box 1: General Manager */}
               <div className="bg-slate-900/90 border border-amber-500/30 p-5 space-y-3 relative group hover:border-amber-400 transition-colors">
                 <div className="flex items-center gap-3">
                   <Users className="w-5 h-5 text-amber-400 shrink-0" />
@@ -293,10 +293,10 @@ export const HomePage: React.FC<HomePageProps> = ({
                   </span>
                 </div>
                 <h3 className="text-base font-extrabold text-white">
-                  Obbo Adil Jundi Mohamed
+                  Obbo Mohamed Salah
                 </h3>
                 <p className="text-xs text-slate-300 leading-relaxed">
-                  General Manager & Founder (Mohammad Saalah). Leading national procurement strategies, international vendor partnerships, and public tender operations across Ethiopia.
+                  General Manager. Leading national procurement strategies, international vendor partnerships, and public tender operations across Ethiopia.
                 </p>
                 <div className="pt-2 border-t border-slate-800 text-[10px] text-slate-400 font-mono flex items-center justify-between">
                   <span>Signatory Authority</span>
@@ -610,7 +610,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               Driven by Operational Precision & Trust
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Under the leadership of Chief Executive Officer <strong>Mr. Mohamed Salah</strong>, Adil Jundi Mohamed Import Export Ltd. operates with passion, intelligence, and commitment to every project — from international sourcing and customs clearance to client service.
+              Under the leadership of General Manager <strong>Mr. Mohamed Salah</strong>, Adil Jundi Mohamed Import Export Ltd. operates with passion, intelligence, and commitment to every project — from international sourcing and customs clearance to client service.
             </p>
             
             <div className="pt-2">

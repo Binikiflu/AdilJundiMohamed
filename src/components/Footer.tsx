@@ -71,7 +71,7 @@ export const Footer: React.FC<FooterProps> = ({ setActivePage, onOpenRfqModal })
           <div className="pt-1">
             <span className="inline-flex items-center gap-1.5 text-[11px] text-slate-300 bg-slate-800 px-3 py-1.5 rounded border border-slate-700 font-mono">
               <FileCheck className="w-3.5 h-3.5 text-blue-400" />
-              <span>CEO: {COMPANY_DETAILS.leadership.ceoName}</span>
+              <span>General Manager: {COMPANY_DETAILS.generalManager}</span>
             </span>
           </div>
         </div>

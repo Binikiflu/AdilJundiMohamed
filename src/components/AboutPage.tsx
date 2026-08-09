@@ -161,7 +161,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ setActivePage, onOpenRfqMo
             Our Team & Culture
           </h2>
           <p className="text-slate-600 text-xs sm:text-sm mt-1 max-w-2xl">
-            Adil Jundi Mohamed Import Export Ltd. is powered by a team of talented and dedicated professionals led by Chief Executive Officer Mr. Mohamed Salah.
+            Adil Jundi Mohamed Import Export Ltd. is powered by a team of talented and dedicated professionals led by General Manager Mr. Mohamed Salah.
           </p>
         </div>
 

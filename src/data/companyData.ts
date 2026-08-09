@@ -10,7 +10,7 @@ export const COMPANY_DETAILS = {
   licenseNo: "MTDD/04/384/493634/2007",
   principalRegNo: "ORO/EHZ/HT/1/0000954/2007",
   initialCapitalETB: "600,000.00 ETB",
-  generalManager: "Mr. Adil Jundi Mohamed",
+  generalManager: "Mr. Mohamed Salah",
   headquarters: {
     country: "Ethiopia",
     city: "Addis Ababa",
@@ -36,8 +36,8 @@ export const COMPANY_DETAILS = {
     socialHandle: "@adiljundimohamed"
   },
   leadership: {
-    ceoName: "Mr. Adil Jundi Mohamed",
-    ceoTitle: "General Manager & Founder",
+    ceoName: "Mr. Mohamed Salah",
+    ceoTitle: "General Manager",
     ceoQuote: "At Adil Jundi Mohamed Import Export Ltd., our mission is clear: to connect Ethiopia with the world's finest equipment and technology, ensuring value, unyielding quality, and institutional trust in every single delivery."
   },
   financials2023: {
@@ -181,70 +181,29 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["ISO 8528", "CE Mark", "EU Stage IIIA"],
     primaryApplications: ["Regional Hospitals", "Ministry Data Centers", "University Campuses"],
-    imageUrl: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "/products/prod-004.svg",
     inStock: true,
     leadTimeDays: 21
   },
   {
     id: "prod-005",
-    title: "Automatic Transfer Switch Panel (ATS 800A 3-Phase)",
+    title: "Automatic Transfer Switch & Main Switchboard Control Panel (ATS 800A)",
     category: "generators-power",
     sectionId: "section-1",
     sectionTitle: "Section 1: Power & Electrical",
     code: "AJ-ATS-800A",
-    shortDesc: "Fully automated 3-phase power transfer switchboard for instant failover between mains power grid and standby generator.",
+    shortDesc: "Fully automated 3-phase power transfer switchboard panel for instant failover between grid mains and generator.",
     specs: {
       "Current Rating": "800 Amps Continuous 400V",
       "Switching Time": "< 100 milliseconds Dual Interlock",
-      "Cabinet": "IP65 Weatherproof Floor Panel",
-      "Protection": "Over/Under Voltage, Phase Loss, Frequency"
+      "Cabinet": "IP65 Weatherproof Floor Mounted Switchboard Panel",
+      "Protection": "Over/Under Voltage, Phase Loss, Frequency Protection"
     },
     standardCompliance: ["IEC 60947-6-1", "CE", "ISO 9001"],
     primaryApplications: ["Commercial Banking Headquarters", "Public Hospitals", "Broadcast Stations"],
-    imageUrl: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "/products/prod-005.svg",
     inStock: true,
     leadTimeDays: 10
-  },
-  {
-    id: "prod-018",
-    title: "Oil-Immersed Distribution Transformer 1000kVA (33kV/0.4kV)",
-    category: "electrical-mechanical",
-    sectionId: "section-1",
-    sectionTitle: "Section 1: Power & Electrical",
-    code: "AJ-TRF-1000KVA",
-    shortDesc: "High-reliability copper-winding step-down distribution transformer engineered for regional electrical utility substation installations.",
-    specs: {
-      "Rated Capacity": "1000 kVA 3-Phase 50Hz",
-      "Voltage Ratio": "33 kV / 0.4 kV (33,000V to 400V)",
-      "Cooling Type": "ONAN Mineral Oil Immersed",
-      "Vector Group": "Dyn11 Standard",
-      "Tap Changer": "Off-Circuit 5-Position Tap Switch"
-    },
-    standardCompliance: ["IEC 60076", "EEU Standard", "ISO 9001"],
-    primaryApplications: ["Regional Electric Utilities", "Industrial Parks", "High-Rise Commercial Complexes"],
-    imageUrl: "https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?auto=format&fit=crop&w=1200&q=80",
-    inStock: true,
-    leadTimeDays: 25
-  },
-  {
-    id: "prod-019",
-    title: "Armored Low/Medium Voltage Power Distribution Cable 4x185mm²",
-    category: "electrical-mechanical",
-    sectionId: "section-1",
-    sectionTitle: "Section 1: Power & Electrical",
-    code: "AJ-CBL-4X185",
-    shortDesc: "Heavy underground direct-burial XLPE insulated copper conductor armored power cable for main substation distribution feeder lines.",
-    specs: {
-      "Conductor Size": "4 Cores x 185 mm² Plain Annealed Copper",
-      "Voltage Rating": "0.6 / 1 kV (1.2 kV Max)",
-      "Armoring": "Galvanized Steel Wire Armor (SWA)",
-      "Outer Sheath": "Flame Retardant Black PVC / XLPE"
-    },
-    standardCompliance: ["IEC 60502-1", "BS 5467", "RoHS"],
-    primaryApplications: ["Underground Grid Feeders", "University Main Feeders", "Factory Sub-Distributions"],
-    imageUrl: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
-    inStock: true,
-    leadTimeDays: 14
   },
   {
     id: "prod-008",
@@ -253,7 +212,7 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     sectionId: "section-1",
     sectionTitle: "Section 1: Power & Electrical",
     code: "AJ-SOLAR-550",
-    shortDesc: "Half-cut cell solar PV module offering 21.5% module efficiency for rural electrification and solar water pumping.",
+    shortDesc: "Half-cut bifacial monocrystalline solar PV module offering 21.5% efficiency for rural electrification and solar pumping.",
     specs: {
       "Max Power (Pmax)": "550 Watts Peak",
       "Cell Type": "Monocrystalline PERC Half-Cut 144 Cells",
@@ -263,27 +222,27 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["IEC 61215", "IEC 61730", "TÜV Rheinland"],
     primaryApplications: ["Solar Water Pumping Schemes", "Off-grid Ministry Outposts", "Educational Centers"],
-    imageUrl: "https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "/products/prod-008.svg",
     inStock: true,
     leadTimeDays: 10
   },
   {
     id: "prod-009",
-    title: "Off-Grid Hybrid Solar MPPT Inverter System 10kW 48V",
+    title: "Off-Grid Hybrid Solar MPPT Wall Inverter System 10kW 48V",
     category: "solar-renewable",
     sectionId: "section-1",
     sectionTitle: "Section 1: Power & Electrical",
     code: "AJ-INV-10KW",
-    shortDesc: "High-frequency pure sine wave solar inverter with dual MPPT controllers and smart battery management for commercial backup.",
+    shortDesc: "High-frequency pure sine wave wall-mounted solar inverter with dual MPPT controllers and LCD monitoring.",
     specs: {
       "Rated Power": "10,000W Continuous / 20,000W Surge",
       "DC Input": "48V Nominal Lithium/Gel compatible",
       "MPPT Range": "120V - 450V DC (Max 500V PV)",
-      "Display": "Color Touch LCD with WiFi Monitoring"
+      "Display": "Color LCD Touchscreen with Remote Monitoring"
     },
     standardCompliance: ["CE", "IEC 62109-1", "EN 61000"],
     primaryApplications: ["Off-Grid Health Clinics", "Remote Bank Branches", "Agricultural Storage Facilities"],
-    imageUrl: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "/products/prod-009.svg",
     inStock: true,
     leadTimeDays: 12
   },
@@ -304,226 +263,247 @@ export const PRODUCT_ITEMS: ProductItem[] = [
     },
     standardCompliance: ["IEC 60034", "IE3 Efficiency Rating"],
     primaryApplications: ["Pumping Stations", "Industrial Processing", "HVAC Blowers"],
-    imageUrl: "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "/products/prod-016.svg",
     inStock: true,
     leadTimeDays: 12
+  },
+  {
+    id: "prod-018",
+    title: "Oil-Immersed Distribution Transformer 1000kVA (33kV/0.4kV)",
+    category: "electrical-mechanical",
+    sectionId: "section-1",
+    sectionTitle: "Section 1: Power & Electrical",
+    code: "AJ-TRF-1000KVA",
+    shortDesc: "High-reliability copper-winding step-down distribution transformer engineered for regional substation installations.",
+    specs: {
+      "Rated Capacity": "1000 kVA 3-Phase 50Hz",
+      "Voltage Ratio": "33 kV / 0.4 kV (33,000V to 400V)",
+      "Cooling Type": "ONAN Mineral Oil Immersed",
+      "Vector Group": "Dyn11 Standard",
+      "Tap Changer": "Off-Circuit 5-Position Tap Switch"
+    },
+    standardCompliance: ["IEC 60076", "EEU Standard", "ISO 9001"],
+    primaryApplications: ["Regional Electric Utilities", "Industrial Parks", "High-Rise Commercial Complexes"],
+    imageUrl: "/products/prod-018.svg",
+    inStock: true,
+    leadTimeDays: 25
+  },
+  {
+    id: "prod-019",
+    title: "Armored Low/Medium Voltage Power Distribution Cable 4x185mm²",
+    category: "electrical-mechanical",
+    sectionId: "section-1",
+    sectionTitle: "Section 1: Power & Electrical",
+    code: "AJ-CBL-4X185",
+    shortDesc: "Heavy underground direct-burial XLPE insulated copper conductor armored power cable for main distribution lines.",
+    specs: {
+      "Conductor Size": "4 Cores x 185 mm² Plain Annealed Copper",
+      "Voltage Rating": "0.6 / 1 kV (1.2 kV Max)",
+      "Armoring": "Galvanized Steel Wire Armor (SWA)",
+      "Outer Sheath": "Flame Retardant Black PVC / XLPE"
+    },
+    standardCompliance: ["IEC 60502-1", "BS 5467", "RoHS"],
+    primaryApplications: ["Underground Grid Feeders", "University Main Feeders", "Factory Sub-Distributions"],
+    imageUrl: "/products/prod-019.svg",
+    inStock: true,
+    leadTimeDays: 14
   },
 
   // SECTION 2: Heavy Machinery, Fleet & Water Infrastructure
   {
     id: "prod-006",
-    title: "Heavy Petrol Engine Discharge Pump 18.5 HP (120 m³/h, 30m Head)",
+    title: "Heavy Submersible Sewage & Industrial Wastewater Sludge Pump",
     category: "pumps-water",
     sectionId: "section-2",
     sectionTitle: "Section 2: Machinery & Water Works",
-    code: "AJ-PUMP-18HP",
-    shortDesc: "High-volume agricultural and municipal water discharge pump specified in regional water supply tenders.",
+    code: "AJ-PUMP-SEW",
+    shortDesc: "Heavy-duty cast iron submersible non-clog sewage pump designed for municipal wastewater and industrial effluent handling.",
     specs: {
-      "Discharge Rate": "120 m³/hour High Volume Flow",
-      "Engine Rating": "18.5 HP Commercial Grade Petrol/Diesel",
-      "Maximum Head": "30 Meters Elevation",
-      "Inlet/Outlet Dia": "4 Inch (100mm) Heavy Flange",
-      "Weight": "115 kg Rigid Steel Frame Mounted"
+      "Discharge Capacity": "150 m³/hour High Flow Volume",
+      "Motor Power": "15 kW (20 HP) 400V 3-Phase",
+      "Impeller": "Non-clog Double Vane Vortex Impeller",
+      "Passage Diameter": "80mm Solid Particle Clearance",
+      "Submersion Depth": "Up to 20 Meters IP68 Waterproof"
     },
-    standardCompliance: ["ISO 9906", "CE Standard", "MoWE Standard"],
-    primaryApplications: ["Irrigation Commissions", "Municipal Water Supply", "Flood Control"],
-    imageUrl: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=1200&q=80",
+    standardCompliance: ["ISO 9906", "CE Certified", "IP68 Protection"],
+    primaryApplications: ["Municipal Wastewater Treatment Plants", "Industrial Effluent Sumps", "Flood Drainage Stations"],
+    imageUrl: "/products/prod-006.svg",
     inStock: true,
     leadTimeDays: 7
   },
   {
     id: "prod-007",
-    title: "Heavy Submersible Borehole Deep-Well Water Pump 18.5kW",
+    title: "Ductile Iron Main Water Resilient Seat Flanged Gate Valve (PN16/DN400)",
     category: "pumps-water",
     sectionId: "section-2",
     sectionTitle: "Section 2: Machinery & Water Works",
-    code: "AJ-SUB-18KW",
-    shortDesc: "Stainless steel multi-stage submersible pump engineered for deep groundwater extractions up to 250m depth.",
+    code: "AJ-DIP-VALVE",
+    shortDesc: "Class K9 ductile iron water main resilient seat flange gate valve with fusion bonded epoxy coating for potable water networks.",
     specs: {
-      "Power Rating": "18.5 kW (25 HP) 3-Phase 400V",
-      "Flow Capacity": "45 m³/hour @ 180m Head",
-      "Material": "AISI 304 Stainless Steel Impellers",
-      "Submersion Depth": "Up to 300 Meters Continuous"
+      "Nominal Diameter": "DN400 (400mm / 16 Inch Flanged)",
+      "Nominal Pressure": "PN16 (16 Bar Working Pressure)",
+      "Body Material": "Ductile Iron GGG50 / EN-GJS-500-7",
+      "Wedge Material": "Ductile Iron Encapsulated with EPDM Rubber",
+      "Coating": "Blue Fusion Bonded Epoxy (Min 250 Micron)"
     },
-    standardCompliance: ["NEMA Standard", "ISO 9906 Grade 2B", "CE"],
-    primaryApplications: ["Community Water Supply Wells", "Agricultural Irrigation", "Industrial Cooling"],
-    imageUrl: "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?auto=format&fit=crop&w=1200&q=80",
+    standardCompliance: ["ISO 7259", "EN 1074-2", "AWWA C509", "WRAS Approved"],
+    primaryApplications: ["Municipal Water Supply Networks", "Treatment Plant Isolation Valves", "Irrigation Trunk Lines"],
+    imageUrl: "/products/prod-007.svg",
     inStock: true,
-    leadTimeDays: 14
-  },
-  {
-    id: "prod-020",
-    title: "Ductile Iron Main Water Pipes DN400 & Resilient Seat Gate Valves",
-    category: "pumps-water",
-    sectionId: "section-2",
-    sectionTitle: "Section 2: Machinery & Water Works",
-    code: "AJ-DIP-DN400",
-    shortDesc: "Class K9 ductile iron water main pipes with cement mortar lining, complete with PN16 resilient seat flange gate valves for municipal supply.",
-    specs: {
-      "Diameter": "DN400 (400mm Nominal Diameter)",
-      "Pressure Class": "PN16 / PN25 High Pressure Rating",
-      "Internal Lining": "Portland Cement Mortar (ISO 4179)",
-      "External Coating": "Metallic Zinc with Bitumen Topcoat"
-    },
-    standardCompliance: ["ISO 2531", "EN 545", "AWWA C110"],
-    primaryApplications: ["Addis Ababa & Regional Main Lines", "Treatment Plant Pipelines", "Irrigation Canals"],
-    imageUrl: "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&w=1200&q=80",
-    inStock: true,
-    leadTimeDays: 18
+    leadTimeDays: 12
   },
   {
     id: "prod-010",
-    title: "Soil Sampling & Heavy Hydraulic Rig Drilling Unit (200m Depth)",
-    category: "construction-machinery",
-    sectionId: "section-2",
-    sectionTitle: "Section 2: Machinery & Water Works",
-    code: "AJ-RIG-200M",
-    shortDesc: "Track-mounted hydraulic core drilling machine engineered for geological survey, mineral exploration, and deep water borehole sampling.",
-    specs: {
-      "Drilling Depth": "Up to 200 Meters Core Drilling",
-      "Drilling Diameter": "75mm - 300mm Borehole",
-      "Engine Power": "4-Cylinder Turbocharged Diesel 65kW",
-      "Chassis": "Rubber Track Crawler Chassis",
-      "Controls": "Full Hydraulic Pilot Joystick Operation"
-    },
-    standardCompliance: ["ISO 22475", "CE Safety Standard"],
-    primaryApplications: ["Geological Surveys", "Water Well Construction", "Infrastructure Foundations"],
-    imageUrl: "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=1200&q=80",
-    inStock: false,
-    leadTimeDays: 30
-  },
-  {
-    id: "prod-011",
-    title: "Heavy Twin-Drum Vibratory Road Roller Compactor (12 Ton)",
+    title: "Heavy Twin-Drum Vibratory Road Roller Compactor (12 Ton LTC212)",
     category: "construction-machinery",
     sectionId: "section-2",
     sectionTitle: "Section 2: Machinery & Water Works",
     code: "AJ-RDR-12T",
-    shortDesc: "Heavy articulated tandem vibratory road roller designed for asphalt paving and soil compaction in highway construction.",
+    shortDesc: "Heavy articulated tandem vibratory road roller designed for asphalt paving and subbase compaction in road construction.",
     specs: {
-      "Operating Weight": "12,500 kg",
-      "Drum Width": "2130mm Heavy Machined Steel",
-      "Engine": "Deutz Water-Cooled Diesel 95kW",
-      "Vibration Freq": "30 / 35 Hz Dual Amplitude"
+      "Operating Weight": "12,500 kg (12.5 Ton)",
+      "Drum Width": "2130mm Heavy Machined Steel Drum",
+      "Engine": "Deutz Water-Cooled Turbocharged Diesel 95kW",
+      "Vibration Frequency": "30 / 35 Hz Dual Amplitude System"
     },
-    standardCompliance: ["CE", "ISO 6016", "EU Stage V"],
-    primaryApplications: ["Federal Highway Construction", "Airport Runways", "Urban Road Paving"],
-    imageUrl: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1200&q=80",
+    standardCompliance: ["CE Safety Standard", "ISO 6016", "EU Stage V"],
+    primaryApplications: ["Federal Highway Construction", "Airport Runways", "Urban Road Asphalt Paving"],
+    imageUrl: "/products/prod-010.svg",
     inStock: true,
     leadTimeDays: 25
   },
   {
-    id: "prod-021",
+    id: "prod-011",
     title: "Heavy Diesel Container Handling Forklift Truck 10-Ton Capacity",
     category: "construction-machinery",
     sectionId: "section-2",
     sectionTitle: "Section 2: Machinery & Water Works",
     code: "AJ-FL-10T",
-    shortDesc: "Industrial heavy-duty diesel container forklift equipped with side shifter, duplex 4.5m mast, and dual front drive tires for dry port terminal operations.",
+    shortDesc: "Heavy-duty industrial diesel forklift equipped with side shifter, duplex 4.5m mast, and dual front drive wheels for logistics terminals.",
     specs: {
-      "Lift Capacity": "10,000 kg (10 Ton Nominal)",
+      "Lift Capacity": "10,000 kg (10 Ton Nominal Rating)",
       "Lift Height": "4,500 mm Duplex Mast",
       "Engine": "ISUZU 6-Cylinder Heavy Industrial Diesel 85kW",
       "Forks": "2,440mm Heavy Alloy Steel Hydraulic Forks"
     },
     standardCompliance: ["ISO 3691-1", "CE Certified", "ANSI/ITSDF"],
-    primaryApplications: ["Djibouti Transit & Dry Ports", "Industrial Free Trade Zones", "Warehouse Logistics"],
-    imageUrl: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
+    primaryApplications: ["Dry Ports & Logistics Terminals", "Free Trade Zone Warehouses", "Heavy Material Depots"],
+    imageUrl: "/products/prod-011.svg",
     inStock: true,
     leadTimeDays: 20
   },
   {
-    id: "prod-022",
+    id: "prod-020",
+    title: "Soil Sampling & Heavy Hydraulic Rig Drilling Unit (200m Depth)",
+    category: "construction-machinery",
+    sectionId: "section-2",
+    sectionTitle: "Section 2: Machinery & Water Works",
+    code: "AJ-RIG-200M",
+    shortDesc: "Crawler chassis mounted hydraulic core drilling machine engineered for water well construction, soil sampling, and borehole drilling.",
+    specs: {
+      "Drilling Depth": "Up to 200 Meters Borehole Depth",
+      "Drilling Diameter": "75mm - 300mm Hole Size",
+      "Engine Power": "4-Cylinder Turbocharged Diesel 65kW",
+      "Chassis": "Rubber Track Crawler Chassis with Hydraulic Outriggers",
+      "Controls": "Full Hydraulic Pilot Joystick Valve Controls"
+    },
+    standardCompliance: ["ISO 22475", "CE Safety Certified"],
+    primaryApplications: ["Water Well Construction", "Geological Surveys", "Infrastructure Foundation Sampling"],
+    imageUrl: "/products/prod-020.svg",
+    inStock: true,
+    leadTimeDays: 30
+  },
+  {
+    id: "prod-021",
     title: "Industrial Rotary Screw Stationary Air Compressor 15HP 500L Tank",
     category: "construction-machinery",
     sectionId: "section-2",
     sectionTitle: "Section 2: Machinery & Water Works",
     code: "AJ-AIR-15HP",
-    shortDesc: "High-efficiency continuous duty rotary screw air compressor with integrated refrigerated air dryer and 500L air receiver tank.",
+    shortDesc: "High-efficiency continuous duty rotary screw air compressor unit with integrated refrigerated air dryer and 500L pressure vessel.",
     specs: {
       "Motor Power": "11 kW (15 HP) 3-Phase 400V",
       "Air Delivery": "1.6 m³/min @ 10 Bar Working Pressure",
-      "Receiver Tank": "500 Liters ASME Certified Steel Pressure Vessel",
-      "Air Dryer": "Integrated Refrigerated Moisture Separator"
+      "Receiver Tank": "500 Liters ASME Certified Steel Vessel",
+      "Air Dryer": "Integrated Refrigerated Moisture Separator & Filter"
     },
     standardCompliance: ["ISO 1217", "ASME Boiler Code", "CE"],
-    primaryApplications: ["Industrial Manufacturing Plants", "Vehicle Workshop Facilities", "Pneumatic Tool Lines"],
-    imageUrl: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=1200&q=80",
+    primaryApplications: ["Industrial Manufacturing Plants", "Vehicle Maintenance Facilities", "Pneumatic Equipment Operations"],
+    imageUrl: "/products/prod-021.svg",
     inStock: true,
     leadTimeDays: 10
+  },
+  {
+    id: "prod-025",
+    title: "Stainless Steel Deep Well Submersible Borehole Pumps Set 18.5kW",
+    category: "pumps-water",
+    sectionId: "section-2",
+    sectionTitle: "Section 2: Machinery & Water Works",
+    code: "AJ-SUB-18KW",
+    shortDesc: "Stainless steel multi-stage borehole submersible pumps set engineered for continuous groundwater extractions up to 300m depth.",
+    specs: {
+      "Power Rating": "18.5 kW (25 HP) 3-Phase 400V 50Hz",
+      "Flow Capacity": "45 m³/hour @ 180m Dynamic Head",
+      "Construction": "Full AISI 304 Stainless Steel Casing & Impellers",
+      "Submersion Depth": "Up to 300 Meters Continuous Duty"
+    },
+    standardCompliance: ["NEMA Standard", "ISO 9906 Grade 2B", "CE Approved"],
+    primaryApplications: ["Community Water Supply Wells", "Agricultural Irrigation", "Industrial Water Facilities"],
+    imageUrl: "/products/prod-025.svg",
+    inStock: true,
+    leadTimeDays: 14
   },
 
   // SECTION 3: Telecommunications, IT & Office Systems
   {
     id: "prod-001",
-    title: "Armored Heavy Outdoor Fiber Optic Cable (24/48/96 Core)",
-    category: "telecom-fiber",
-    sectionId: "section-3",
-    sectionTitle: "Section 3: Telecom, IT & Office",
-    code: "AJ-FO-96C",
-    shortDesc: "Direct-burial double-jacket armored optical fiber cable designed for high-capacity telecom backbones and university campus fiber rings.",
-    specs: {
-      "Core Count": "24 / 48 / 96 Single Mode G.652D",
-      "Armor Type": "Corrugated Steel Tape & PE Outer Jacket",
-      "Tensile Strength": "3000N Long Term",
-      "Operating Temp": "-40°C to +70°C",
-      "Certification": "ISO 9001 / IEC 60794"
-    },
-    standardCompliance: ["IEC 60794", "ITU-T G.652D", "RoHS"],
-    primaryApplications: ["National Telecom Expansion", "Ministry Fiber Rings", "University Campus Backbones"],
-    imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80",
-    inStock: true,
-    leadTimeDays: 14
-  },
-  {
-    id: "prod-002",
-    title: "ADSS All-Dielectric Self-Supporting Aerial Fiber Optic Cable 120m Span",
+    title: "EFON ADSS All-Dielectric Self-Supporting Aerial Fiber Optic Cable",
     category: "telecom-fiber",
     sectionId: "section-3",
     sectionTitle: "Section 3: Telecom, IT & Office",
     code: "AJ-FO-ADSS",
-    shortDesc: "All-dielectric self-supporting fiber optic cable for high-voltage power line attachment without electromagnetic interference.",
+    shortDesc: "Self-supporting aerial fiber optic cable designed for overhead power line and pole installation with tracking resistance.",
     specs: {
-      "Span Distance": "Up to 120 Meters Self-Supporting",
-      "Fibers": "48 Single Mode ITU G.652D",
-      "Jacket": "Tracking-Resistant High Density Polyethylene",
-      "Crush Resistance": "2200N / 100mm",
-      "Diameter": "12.8mm Lightweight"
+      "Span Rating": "Up to 120 Meters Self-Supporting Span",
+      "Fiber Cores": "48 Single Mode ITU-T G.652D Fibers",
+      "Jacket Material": "Tracking-Resistant High-Density Polyethylene",
+      "Tensile Load": "2200N Long Term Rating",
+      "Weight": "Lightweight 12.8mm Diameter Construction"
     },
     standardCompliance: ["IEEE 1222", "IEC 60794-4", "ISO 9001"],
-    primaryApplications: ["Power Grid Communications", "Inter-City Overhead Links", "Rural Broadband"],
-    imageUrl: "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=1200&q=80",
+    primaryApplications: ["Power Utility Aerial Fiber Lines", "Inter-City Overhead Links", "Rural Broadband Expansion"],
+    imageUrl: "/products/prod-001.svg",
     inStock: true,
     leadTimeDays: 10
   },
   {
-    id: "prod-003",
-    title: "144-Port Optical Distribution Frame (ODF) & Fusion Splicing Kit",
+    id: "prod-002",
+    title: "Yoohon 144-Port Optical Distribution Frame (ODF) & Patch Enclosure",
     category: "telecom-fiber",
     sectionId: "section-3",
     sectionTitle: "Section 3: Telecom, IT & Office",
     code: "AJ-FO-ODF144",
-    shortDesc: "Standard 19-inch rack-mounted optical distribution cabinet complete with fusion splice trays, pigtails, and SC/APC adapters.",
+    shortDesc: "19-inch rack-mounted high-density optical distribution cabinet featuring fusion splice trays and SC/APC green adapter panels.",
     specs: {
       "Capacity": "144 Fiber Ports SC/APC or LC/UPC",
-      "Mounting": "19-Inch 4U Rack Mount Chassis",
-      "Material": "1.5mm Cold Rolled Steel Powder Coated",
-      "Splice Trays": "12 Trays x 12 Splice Capacity"
+      "Mounting": "19-Inch 4U / 6U Rack Mount Enclosure",
+      "Material": "1.5mm Cold Rolled Steel with Powder Coating",
+      "Splice Trays": "12 Trays x 12 Splice Capacity Each"
     },
     standardCompliance: ["TIA/EIA-568-C.3", "Telcordia GR-449", "CE"],
-    primaryApplications: ["Data Centers", "Telecom Central Offices", "Bank Network Hubs"],
-    imageUrl: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+    primaryApplications: ["Telecom Central Offices", "Ministry Data Centers", "Enterprise Fiber Hubs"],
+    imageUrl: "/products/prod-002.svg",
     inStock: true,
     leadTimeDays: 7
   },
   {
-    id: "prod-023",
-    title: "Enterprise Rackmount Server Chassis (Dual Intel Xeon 128GB RAM)",
+    id: "prod-003",
+    title: "Dell PowerEdge Enterprise 2U Rackmount Server Chassis",
     category: "computers-it",
     sectionId: "section-3",
     sectionTitle: "Section 3: Telecom, IT & Office",
     code: "AJ-SRV-2UEX",
-    shortDesc: "High-density 2U enterprise rack server equipped with redundant power supplies, hot-swappable SAS drive bays, and hardware RAID.",
+    shortDesc: "High-density 2U enterprise rack server featuring dual Intel Xeon processors, redundant power supplies, and hardware RAID.",
     specs: {
       "Processors": "Dual Intel Xeon Silver 4314 16-Core 2.4GHz",
       "Memory": "128GB DDR4 ECC Registered RAM (Expandable 1TB)",
@@ -531,151 +511,171 @@ export const PRODUCT_ITEMS: ProductItem[] = [
       "Power Supply": "Dual 800W Redundant 80-Plus Platinum PSUs"
     },
     standardCompliance: ["Energy Star Server 3.0", "FCC Class A", "CE"],
-    primaryApplications: ["Ministry Central Databases", "Regional Revenue Servers", "Bank Transaction Core"],
-    imageUrl: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
-    inStock: true,
-    leadTimeDays: 14
-  },
-  {
-    id: "prod-014",
-    title: "Institutional Workstation Tower PC (Intel Core i7 32GB RAM 1TB SSD)",
-    category: "computers-it",
-    sectionId: "section-3",
-    sectionTitle: "Section 3: Telecom, IT & Office",
-    code: "AJ-PC-I7PRO",
-    shortDesc: "High-performance enterprise desktop PC bundle with 24-inch FHD IPS monitor, designed for university computer labs.",
-    specs: {
-      "Processor": "Intel Core i7 13th Gen 16-Core",
-      "Memory": "32GB DDR5 4800MHz",
-      "Storage": "1TB NVMe PCIe 4.0 M.2 SSD",
-      "Display": "24\" Ultra-Slim IPS FHD 1080p Monitor",
-      "Operating System": "Windows 11 Pro Commercial Licensed"
-    },
-    standardCompliance: ["Energy Star 8.0", "FCC Class B", "CE"],
-    primaryApplications: ["University Computer Labs", "Ministry Administration", "Financial Institution Workstations"],
-    imageUrl: "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=1200&q=80",
-    inStock: true,
-    leadTimeDays: 7
-  },
-  {
-    id: "prod-015",
-    title: "Enterprise Managed 48-Port Gigabit PoE+ Network Switch",
-    category: "computers-it",
-    sectionId: "section-3",
-    sectionTitle: "Section 3: Telecom, IT & Office",
-    code: "AJ-NET-SW48",
-    shortDesc: "Layer 3 managed rackmount ethernet switch featuring 48 PoE+ ports and 4x 10G SFP+ fiber uplink ports.",
-    specs: {
-      "Ports": "48x 10/100/1000 Base-T PoE+ Ports (740W Budget)",
-      "Uplinks": "4x 10G SFP+ Optical Fiber Ports",
-      "Switching Capacity": "176 Gbps Non-Blocking Fabric",
-      "Features": "VLAN, QoS, IGMP Snooping, SNMPv3"
-    },
-    standardCompliance: ["IEEE 802.3at PoE+", "CE", "FCC", "RoHS"],
-    primaryApplications: ["Enterprise Office Networks", "Campus IP Surveillance", "Data Center Racks"],
-    imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80",
-    inStock: true,
-    leadTimeDays: 5
-  },
-  {
-    id: "prod-024",
-    title: "Digital Interactive Smart Touchscreen Display 86\" 4K for Education",
-    category: "computers-it",
-    sectionId: "section-3",
-    sectionTitle: "Section 3: Telecom, IT & Office",
-    code: "AJ-DISP-86SM",
-    shortDesc: "Commercial 4K Ultra-HD interactive whiteboard panel with dual Android/Windows OS, multi-touch stylus support, and anti-glare glass.",
-    specs: {
-      "Screen Size": "86 Inch 4K UHD (3840 x 2160) IPS Display",
-      "Touch Points": "20-Point IR Touch Precision",
-      "OS Dual Boot": "Android 11.0 + Windows 11 OPS PC Module",
-      "Audio": "Built-in 2x 20W Front Speakers & Mic Array"
-    },
-    standardCompliance: ["CE", "FCC", "CB", "RoHS"],
-    primaryApplications: ["University Lecture Halls", "Ministry Conference Rooms", "Bank Training Centers"],
-    imageUrl: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
+    primaryApplications: ["Ministry Central Databases", "Regional Revenue Servers", "Bank Core Systems"],
+    imageUrl: "/products/prod-003.svg",
     inStock: true,
     leadTimeDays: 14
   },
   {
     id: "prod-012",
-    title: "Executive Mahogany Office Suite & Conference Table Assembly",
-    category: "furniture-office",
-    sectionId: "section-3",
-    sectionTitle: "Section 3: Telecom, IT & Office",
-    code: "AJ-FURN-EXE",
-    shortDesc: "Handcrafted high-density mahogany veneer executive desk with side credenza, mobile drawer pedestal, and genuine leather seating.",
-    specs: {
-      "Desk Dimensions": "2400mm x 1100mm x 760mm",
-      "Material": "E1 Grade Fiberboard with Solid Mahogany Veneer",
-      "Included Accessories": "Wire Management Trunking, Lockable Pedestal, Side Storage",
-      "Chair Type": "Top-Grain Leather Ergonomic High-Back Executive Chair"
-    },
-    standardCompliance: ["BIFMA X5.5", "ISO 14001"],
-    primaryApplications: ["Ministerial Director Offices", "Bank Executive Suites", "University Deans"],
-    imageUrl: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
-    inStock: true,
-    leadTimeDays: 14
-  },
-  {
-    id: "prod-013",
-    title: "Fireproof Heavy Steel Filing Cabinet & Archival Storage (4-Drawer)",
+    title: "Fireproof Heavy Steel Filing Cabinet & Safe Locker System (4-Drawer)",
     category: "furniture-office",
     sectionId: "section-3",
     sectionTitle: "Section 3: Telecom, IT & Office",
     code: "AJ-FURN-ST4",
-    shortDesc: "Heavy reinforced fire-resistant steel document filing cabinet designed for secure government record archives.",
+    shortDesc: "Heavy reinforced fire-resistant steel document filing cabinet and safe combination designed for secure government record archives.",
     specs: {
       "Fire Rating": "UL Class 350 1-Hour Fire Protection (1010°C)",
-      "Locking": "Central Key Lock & Digital Combination Lock",
-      "Steel Thickness": "1.2mm Cold Rolled Structural Steel",
+      "Locking System": "Central Combination Lock & Keyed Deadbolts",
+      "Steel Thickness": "1.2mm Heavy Cold Rolled Steel",
       "Dimensions": "1560mm H x 525mm W x 750mm D"
     },
     standardCompliance: ["UL 72", "NT FIRE 017", "ISO 9001"],
-    primaryApplications: ["Government Ministry Archives", "Courts & Judicial Chambers", "Bank Records"],
-    imageUrl: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80",
+    primaryApplications: ["Government Ministry Archives", "Judicial & Court Chambers", "Bank Secure Document Storage"],
+    imageUrl: "/products/prod-012.svg",
     inStock: true,
     leadTimeDays: 7
   },
   {
-    id: "prod-025",
-    title: "Portable Ultrasound Diagnostic System & Patient Monitor",
+    id: "prod-013",
+    title: "Portable Ultrasound Diagnostic System & Medical Color Doppler Scanner",
     category: "safety-laboratory",
     sectionId: "section-3",
     sectionTitle: "Section 3: Telecom, IT & Office",
     code: "AJ-MED-ULTRA",
-    shortDesc: "High-resolution digital color Doppler ultrasound diagnostic machine complete with multi-frequency cardiac and abdominal probes.",
+    shortDesc: "Medical-grade digital ultrasound diagnostic scanner cart with color Doppler, multi-frequency probes, and patient monitor.",
     specs: {
-      "Display": "15-Inch High Resolution LED Medical Monitor",
-      "Probes Included": "Convex, Linear & Transvaginal Probes",
-      "Modes": "B, 2B, 4B, M, Color Doppler, Power Doppler",
-      "Battery": "Built-in Rechargeable Li-ion (3 Hours Run)"
+      "Display": "15-Inch High Resolution LED Medical Grade Monitor",
+      "Probes Included": "Convex Abdominal, Linear Small Parts & Transvaginal Probes",
+      "Imaging Modes": "B, 2B, 4B, M, Color Doppler, Power Doppler",
+      "Power": "AC Power + Built-in Rechargeable Lithium Battery (3 Hrs)"
     },
     standardCompliance: ["ISO 13485 Medical", "CE 0123", "FDA Cleared"],
-    primaryApplications: ["Regional Referral Hospitals", "Maternal Health Clinics", "Field Health Posts"],
-    imageUrl: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80",
+    primaryApplications: ["Regional Referral Hospitals", "Maternal Health Clinics", "Mobile Field Posts"],
+    imageUrl: "/products/prod-013.svg",
+    inStock: true,
+    leadTimeDays: 14
+  },
+  {
+    id: "prod-014",
+    title: "Enterprise Managed 48-Port Gigabit PoE+ Network Switch",
+    category: "computers-it",
+    sectionId: "section-3",
+    sectionTitle: "Section 3: Telecom, IT & Office",
+    code: "AJ-NET-SW48",
+    shortDesc: "Layer 3 managed rackmount Ethernet switch featuring 48 PoE+ ports and 4x 10G SFP+ optical fiber uplink ports.",
+    specs: {
+      "Ports": "48x 10/100/1000 Base-T PoE+ Ports (740W Power Budget)",
+      "Uplinks": "4x 10G SFP+ Optical Fiber Uplink Ports",
+      "Switching Capacity": "176 Gbps Non-Blocking Fabric",
+      "Management": "CLI, Web GUI, SNMPv3, VLAN, IGMP Snooping"
+    },
+    standardCompliance: ["IEEE 802.3at PoE+", "CE", "FCC", "RoHS"],
+    primaryApplications: ["Enterprise Building Networks", "IP Camera CCTV Networks", "Data Center Rack Switch"],
+    imageUrl: "/products/prod-014.svg",
+    inStock: true,
+    leadTimeDays: 5
+  },
+  {
+    id: "prod-015",
+    title: "Digital Interactive Smart Touchscreen Display 86 Inch 4K for Education",
+    category: "computers-it",
+    sectionId: "section-3",
+    sectionTitle: "Section 3: Telecom, IT & Office",
+    code: "AJ-DISP-86SM",
+    shortDesc: "Commercial 4K Ultra-HD interactive whiteboard display panel with dual Android/Windows OS, stylus writing, and anti-glare glass.",
+    specs: {
+      "Screen Size": "86 Inch 4K UHD (3840 x 2160) IPS Display",
+      "Touch Points": "20-Point IR Touch Precision",
+      "OS Dual Boot": "Android 11.0 + Windows 11 OPS PC Module",
+      "Audio & Mic": "Built-in 2x 20W Front Speakers & Array Microphone"
+    },
+    standardCompliance: ["CE", "FCC", "CB", "RoHS"],
+    primaryApplications: ["University Lecture Halls", "Ministry Executive Conference Rooms", "Training Centers"],
+    imageUrl: "/products/prod-015.svg",
     inStock: true,
     leadTimeDays: 14
   },
   {
     id: "prod-017",
-    title: "Precision Water Quality Testing Photometer & Laboratory Kit",
+    title: "Accepta Precision Water Quality Testing Photometer & Laboratory Kit",
     category: "safety-laboratory",
     sectionId: "section-3",
     sectionTitle: "Section 3: Telecom, IT & Office",
     code: "AJ-LAB-WATER",
-    shortDesc: "Portable multi-parameter water analysis laboratory set for measuring turbidity, pH, chlorine, heavy metals, and bacterial purity.",
+    shortDesc: "Portable briefcase multi-parameter water analysis field laboratory kit for turbidity, pH, chlorine, and chemical testing.",
     specs: {
       "Parameters": "Over 50 Water Quality Parameters",
       "Display": "Backlit Graphic LCD Screen",
-      "Power": "Rechargeable Lithium Battery",
-      "Carrying Case": "Waterproof Rugged Field Case"
+      "Carrying Case": "Rugged Waterproof Field Briefcase",
+      "Reagents": "Complete Reagent Test Tubes & Calibration Standards"
     },
     standardCompliance: ["USEPA Approved Methods", "ISO 7027", "CE"],
-    primaryApplications: ["Public Health Laboratories", "Water Authority Inspection", "Environmental Studies"],
-    imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+    primaryApplications: ["Public Health Testing Labs", "Water Authority Field Inspections", "Environmental Water Quality Monitoring"],
+    imageUrl: "/products/prod-017.svg",
     inStock: true,
     leadTimeDays: 10
+  },
+  {
+    id: "prod-022",
+    title: "Armored Heavy Outdoor Fiber Optic Cable (24/48/96 Core)",
+    category: "telecom-fiber",
+    sectionId: "section-3",
+    sectionTitle: "Section 3: Telecom, IT & Office",
+    code: "AJ-FO-96C",
+    shortDesc: "Direct-burial double-jacket armored optical fiber cable on wooden reel designed for long-distance telecom backbones.",
+    specs: {
+      "Core Count": "24 / 48 / 96 Single Mode G.652D Fibers",
+      "Armor Structure": "Corrugated Steel Tape Armor & Double PE Jacket",
+      "Tensile Strength": "3000N Long Term Heavy Rating",
+      "Packaging": "Heavy Wooden Cable Reel Drum"
+    },
+    standardCompliance: ["IEC 60794", "ITU-T G.652D", "RoHS"],
+    primaryApplications: ["National Telecom Grid Expansion", "Ministry Fiber Rings", "University Backbones"],
+    imageUrl: "/products/prod-022.svg",
+    inStock: true,
+    leadTimeDays: 14
+  },
+  {
+    id: "prod-023",
+    title: "Institutional Workstation Tower PC (Dell Precision i7 32GB RAM 1TB SSD)",
+    category: "computers-it",
+    sectionId: "section-3",
+    sectionTitle: "Section 3: Telecom, IT & Office",
+    code: "AJ-PC-I7PRO",
+    shortDesc: "High-performance enterprise desktop PC bundle with 24-inch FHD IPS monitor designed for institutional computing.",
+    specs: {
+      "Processor": "Intel Core i7 13th Gen 16-Core",
+      "Memory": "32GB DDR5 4800MHz",
+      "Storage": "1TB NVMe PCIe 4.0 M.2 SSD",
+      "Display": "24 Inch Ultra-Slim IPS FHD 1080p Ergonomic Monitor",
+      "OS": "Windows 11 Pro Commercial License"
+    },
+    standardCompliance: ["Energy Star 8.0", "FCC Class B", "CE"],
+    primaryApplications: ["University Computer Laboratories", "Ministry Offices", "Banking Workstations"],
+    imageUrl: "/products/prod-023.svg",
+    inStock: true,
+    leadTimeDays: 7
+  },
+  {
+    id: "prod-024",
+    title: "Executive Mahogany Office Suite & Conference Table Assembly",
+    category: "furniture-office",
+    sectionId: "section-3",
+    sectionTitle: "Section 3: Telecom, IT & Office",
+    code: "AJ-FURN-EXE",
+    shortDesc: "Handcrafted solid mahogany veneer executive desk with side credenza, lockable drawers, and high-back leather executive chair.",
+    specs: {
+      "Desk Dimensions": "2400mm x 1100mm x 760mm",
+      "Material": "E1 Grade Fiberboard with Solid Mahogany Wood Veneer",
+      "Included Pieces": "L-Desk, Side Storage Credenza, Mobile Pedestal, Executive Leather Chair",
+      "Trunking": "Integrated Cable Management Trunking"
+    },
+    standardCompliance: ["BIFMA X5.5", "ISO 14001"],
+    primaryApplications: ["Ministerial Director Suites", "Bank Executive Offices", "University Deans"],
+    imageUrl: "/products/prod-024.svg",
+    inStock: true,
+    leadTimeDays: 14
   }
 ];
 
@@ -1220,7 +1220,7 @@ export const CERTIFICATES_DATA: CertificateItem[] = [
     yearEth: "2012 E.C.",
     yearGregorian: "2020 G.C.",
     category: "Excellence Award",
-    description: "Framed honor check award ('ከ ወገን ደራሽ ወገን ነው') recognizing Adil Jundi Mohamed Import Company and General Manager Adil Jundi Mohamed for donating ETB 120,000.00 via Commercial Bank of Ethiopia to support regional COVID-19 emergency relief efforts.",
+    description: "Framed honor check award ('ከ ወገን ደራሽ ወገን ነው') recognizing Adil Jundi Mohamed Import Company and General Manager Mohamed Salah for donating ETB 120,000.00 via Commercial Bank of Ethiopia to support regional COVID-19 emergency relief efforts.",
     imageUrl: "/certificates/cert-003.svg"
   },
   {
@@ -1280,7 +1280,7 @@ export const CERTIFICATES_DATA: CertificateItem[] = [
     yearEth: "2011-2013 E.C.",
     yearGregorian: "2019-2021 G.C.",
     category: "Tender Recognition",
-    description: "Xalayyaa Ragaa / የምስክር ወረቀት document presented to Obbo Adil Jundi by Aboker District Administrator Sulxan Sani for outstanding leadership, humanitarian relief, and youth empowerment in Aboker district.",
+    description: "Xalayyaa Ragaa / የምስክር ወረቀት document presented to Obbo Mohamed Salah by Aboker District Administrator Sulxan Sani for outstanding leadership, humanitarian relief, and youth empowerment in Aboker district.",
     imageUrl: "/certificates/cert-009.svg"
   },
   {

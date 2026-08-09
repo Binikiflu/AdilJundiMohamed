@@ -47,6 +47,17 @@ export function getAllCustomImages(): Record<string, string> {
   }
 }
 
+export function importCustomImages(newImagesMap: Record<string, string>): void {
+  try {
+    const existing = getAllCustomImages();
+    const merged = { ...existing, ...newImagesMap };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(merged));
+    window.dispatchEvent(new Event('custom-images-updated'));
+  } catch (e) {
+    console.error('Failed to import custom images', e);
+  }
+}
+
 /**
  * Optimizes uploaded image file:
  * - High resolution canvas rendering (up to 1920px max dimension)
